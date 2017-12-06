@@ -1,29 +1,45 @@
 a {color: #000099!important}
-li {font-family: roboto slab;
-	font-weight: bold;}
+li {font-family: cousine;
+	font-weight: bold;
+	margin: 15px 0;
+	}
 
 .header 
 	{font-weight: bold;
-		font-family: roboto slab;}
+		font-family: Cousine;}
 .subheader 
 	{font-weight: bold;
-		font-family: roboto slab;
+		font-family: Cousine;
 		font-size:20px;}
 .main 
 	{text-align: justify;
 	text-indent: 3mm;
-	font-family: roboto slab;
-	font-size: 16px;
-	}
+	font-family: cousine;
+	font-size: 17px;
+	line-height: 130%}
+i 
+	{text-align: justify;
+	text-indent: 3mm;
+	font-family: cousine;
+	font-size: 14px;
+	line-height: 130%}
 .quote 
 	{text-align: justify;
 		padding-left: 70px;
 	    padding-right: 70px;
-	    font-family:  roboto slab;
-	    font-size: 14px
+	    font-family:  cousine;
+	    font-size: 15px;
+	    font-style: italic;
 	}
 .gov
 	{text-align: center;}
+.name
+	{padding-top: 45px;
+		font-family: Overpass Mono;
+		font-size: 45px !important}
+.menu
+	{padding-top: 50px;
+	}
 img 
 	{max-width: 45%;
     height: auto;
