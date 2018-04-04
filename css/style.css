@@ -1,9 +1,13 @@
-a {color: #000099!important}
+
 li {font-family: cousine;
 	font-weight: bold;
 	margin: 15px 0;
 	}
-
+@media (min-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
 .header 
 	{font-weight: bold;
 		font-family: Cousine;}
@@ -68,3 +72,14 @@ iframe {
 .cv
 	{max-width: 15% !important;
 		}
+
+	a:link{
+           color: black; text-decoration: underline
+       }
+       a:hover{
+           color: black;
+       }
+       a:active{
+           color: black;}
+           a:visited{ color: inherit
+            }
